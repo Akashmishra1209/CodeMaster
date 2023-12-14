@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodeMaster Is A WebsiteWhere You Can See The Power Of Html Css And JavaScript">
+  <meta name="keywords" content="HTML,Css,JavaScript">
+  <title>CodeMaster-Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="shortcut icon" href="img/programming.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="nav">
+    <nav>
+      <ul>
+        <li>
+          <a href="/CodeMaster"><img src="img/programming.png" alt="img"></a>
+          <a href="/CodeMaster">Home</a>
+          <a href="#titlediv">About</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--Title Of The Page-->
+  <div class="titlediv" id="titlediv">
+    <h1 class="titlenew">Welcome To CodeMaster.Learn <span id="course"></span>With Me</h1>
+    <p>CodeMaster Is A Website Where You Can See The Power Of Html,Css Ans Javascript.It Is My Perssonal Portfolio Website.<br> All The Source Code Of The Website Is Available On GitHub.<br>This Is Not Only  A Website,This Is A Power Of HTML,CSS And JavaScript</p>
+    <button id="github"><a href="https://github.com/Akashmishra1209/" target="_blank">Visit GitHub</a></button>
+  </div>
+  <!--Price Table-->
+  <div id="price">
+    <h2 style="text-align:center; margin: 45px; color: blue;">Our Teaching Charges</h2>
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Free</li>
+        <li class="grey">$0/ year</li>
+        <li>Telegram Group</li>
+        <li>Youtube Videos</li>
+        <li>CodeMaster Website</li>
+        <li>GitHub Page</li>
+        <li class="grey"><a href="#" class="button" onclick="free()">Explore Now</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header" style="background-color:#04AA6D">Pro</li>
+        <li class="grey">$ 5 / year</li>
+        <li>Online Teaching</li>
+        <li>Daily Test</li>
+        <li>Free Ebooks</li>
+        <li>Free GitHub Copilot</li>
+        <li class="grey"><a href="#" class="button" onclick="pro()">Buy Now</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Premium</li>
+        <li class="grey">$ 10 / year</li>
+        <li>Includs PRO Plan</li>
+        <li>Online Teaching Free</li>
+        <li>Free Books</li>
+        <li>HandWritten Notes PDFs</li>
+        <li class="grey"><a href="#" class="button" onclick="prem()">Buy Now</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Contact-->
+  <div id="contact">
+    <h2 style="text-align: center; align-items: center; color: blue; margin: 15px;">Contact Us</h2>
+
+    <div class="container">
+      <form action="/CodeMaster" onsubmit="  alert('DearYour Query Has Been Saved Successfully.')">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="deafult">Select A Country</option>
+              <option value="india">India</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+              required></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row" style="text-align: center; align-items: center;">
+          <input type="submit" style="text-align: center; align-items: center;">
+        </div>
+      </form>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#course', {
+    strings: ['Html', 'Css', 'JavaScript', 'PHP', 'Python', 'Java', 'jQuery', 'C', 'C++', 'Many Languages'],
+    typeSpeed: 200,
+  });
+</script>
+</body>
+
+</html>
+<?php
+if ($_SERVER["REQUEST_METHOD"]=="post") {
+ echo "<script>alert('ALL DONE')</script>";
+}
+?>

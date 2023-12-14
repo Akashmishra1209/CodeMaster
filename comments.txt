@@ -1,0 +1,57 @@
+********************************HTML************************************
+    <!-- <div class="topcontent">
+        <div class="topcontent-left">
+            <img class="akashimg" src="img/programming.png" alt="img">
+        </div>
+        <div class="topcontent-right">
+            <h1>CodeMaster</h1>
+            <p>Welcome To CodeMaster.I Am Akash.This Is My Personal Portfolio Blog. This Website Is Created With
+                Html,Css And Js.This Is My First Big Project. All The Source Code Of
+                This Website Is Available On GitHub.</p>
+                <div class="topbtn">
+            <button id="github"><a href="https://github.com/Akashmishra1209/">Visit GitHub</a></button>
+            <button id="Sourcecode"><a href="https://github.com/Akashmishra1209/Ak">Download Source Code</a></button>
+        </div>
+        </div> -->
+
+***************************CSS*****************************************
+
+/* .topbtn button{
+    height: 25px;
+    width: 250px;
+    background-color:#005aff;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgba(255, 255, 255, 0.801);
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.topbtn source{
+    height: 35px;
+    width: 300px;
+    background-color:#005aff;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgba(255, 255, 255, 0.801);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.topbtn button:hover {
+    background-color: #04AA6D;
+    color: white;
+} */

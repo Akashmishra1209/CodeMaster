@@ -1,0 +1,17 @@
+@media screen and (max-width: 326px) {
+    .nav {
+        height: 230px;
+    }
+
+    .nav nav ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav nav ul li a {
+        margin: 21px;
+        padding: 1px;
+    }
+}
